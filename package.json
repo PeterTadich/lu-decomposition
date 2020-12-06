@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/PeterTadich/lu-decomposition/issues"
   },
-  "homepage": "https://github.com/PeterTadich/lu-decomposition#readme"
+  "homepage": "https://github.com/PeterTadich/lu-decomposition#readme",
+  "dependencies": {
+    "matrix-computations": "git+https://github.com/PeterTadich/matrix-computations.git"
+  }
 }
