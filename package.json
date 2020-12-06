@@ -1,0 +1,19 @@
+{
+  "name": "lu-decomposition",
+  "version": "1.0.0",
+  "description": "LU decomposition with back substitution for inverse of a matrix",
+  "main": "ludcmp.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PeterTadich/lu-decomposition.git"
+  },
+  "author": "Peter Tadich",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PeterTadich/lu-decomposition/issues"
+  },
+  "homepage": "https://github.com/PeterTadich/lu-decomposition#readme"
+}
