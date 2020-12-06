@@ -2,6 +2,8 @@
 
 // ECMAScript module
 
+import * as hlao from 'matrix-computations';
+
 //REF: Numerical recipes in C, page 46
 function ludcmp(a,n){
     // in:
@@ -21,7 +23,7 @@ function ludcmp(a,n){
     // or invert a matrix.
     
     var indx = [];
-    var vv=zeros_vector((n+1),'row'); // vv stores the implicit scaling of each row.
+    var vv=hlao.zeros_vector((n+1),'row'); // vv stores the implicit scaling of each row.
     var d=1.0; // No row interchanges yet.
     for(var i=1;i<=n;i++){ // Loop over rows to get the implicit scaling information.
         var big=0.0; 
@@ -175,8 +177,8 @@ function matrixInverseLU(a,N){
     // out:
     // y
     
-    var y = zeros_matrix((N+1),(N+1));
-    var col = zeros_vector((N+1),'row');
+    var y = hlao.zeros_matrix((N+1),(N+1));
+    var col = hlao.zeros_vector((N+1),'row');
     var LUdecomp = ludcmp(a,N); // ludcmp returns '[a,indx,d]' - Decompose the matrix just once.
     a = LUdecomp[0];
     var indx = LUdecomp[1];
