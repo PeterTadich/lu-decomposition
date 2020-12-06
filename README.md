@@ -1,8 +1,6 @@
 # lu-decomposition
 LU decomposition with back-substitution for inverse of a matrix.
 
-## Installation
-
 ## Dependencies
 
 There is 1 dependency 'matrix-computations'.
@@ -10,6 +8,8 @@ There is 1 dependency 'matrix-computations'.
 ```bash
 https://github.com/PeterTadich/matrix-computations
 ```
+
+## Installation
 
 ### Node.js
 
