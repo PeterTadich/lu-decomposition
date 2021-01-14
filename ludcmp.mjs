@@ -3,6 +3,7 @@
 // ECMAScript module
 
 import * as hlao from 'matrix-computations';
+//import * as hlao from '../matrix-computations/hlao.mjs';
 
 //REF: Numerical recipes in C, page 46
 function ludcmp(a,n){
